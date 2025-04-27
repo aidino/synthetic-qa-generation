@@ -67,6 +67,7 @@ def analyze_pdf_page_content(pdf_path, text_length_thres=600):
     return dict(page_analysis)
 
 
+
 def split_pdf(input_path, output_path, pages):
     pdf_document = fitz.open(input_path)
     output_pdf = fitz.open()

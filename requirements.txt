@@ -4,6 +4,7 @@ langchain-core
 langchain-ollama
 langchain-openai
 langchain-community
+langchain-chroma
 python-dotenv
 openai
 transformers
@@ -18,3 +19,5 @@ markdownify
 pymupdf
 Jinja2
 jsonlines
+pdfplumber
+htmltabletomd
